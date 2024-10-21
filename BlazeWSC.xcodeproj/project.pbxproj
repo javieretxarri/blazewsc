@@ -11,6 +11,14 @@
 		F948FF2C2CC615F30058B6E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948FF2B2CC615F30058B6E6 /* ContentView.swift */; };
 		F948FF2E2CC615F40058B6E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F948FF2D2CC615F40058B6E6 /* Assets.xcassets */; };
 		F948FF312CC615F40058B6E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F948FF302CC615F40058B6E6 /* Preview Assets.xcassets */; };
+		F948FF3B2CC6163A0058B6E6 /* BlazeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948FF382CC6163A0058B6E6 /* BlazeTheme.swift */; };
+		F948FF3C2CC6163A0058B6E6 /* BlazeWidgetItemStyle+BlazeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948FF392CC6163A0058B6E6 /* BlazeWidgetItemStyle+BlazeTheme.swift */; };
+		F948FF3D2CC6163A0058B6E6 /* BlazeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948FF3A2CC6163A0058B6E6 /* BlazeView.swift */; };
+		F948FF3F2CC616500058B6E6 /* BlazeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948FF3E2CC616500058B6E6 /* BlazeViewModel.swift */; };
+		F948FF492CC61B420058B6E6 /* BlazeSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F948FF482CC61B420058B6E6 /* BlazeSDK */; };
+		F948FF522CC61E980058B6E6 /* AudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948FF4E2CC61E970058B6E6 /* AudioViewModel.swift */; };
+		F948FF532CC61E980058B6E6 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948FF4F2CC61E970058B6E6 /* AudioModel.swift */; };
+		F948FF542CC61E980058B6E6 /* AudioTimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948FF502CC61E980058B6E6 /* AudioTimeLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,13 @@
 		F948FF2B2CC615F30058B6E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F948FF2D2CC615F40058B6E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F948FF302CC615F40058B6E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F948FF382CC6163A0058B6E6 /* BlazeTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlazeTheme.swift; sourceTree = "<group>"; };
+		F948FF392CC6163A0058B6E6 /* BlazeWidgetItemStyle+BlazeTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BlazeWidgetItemStyle+BlazeTheme.swift"; sourceTree = "<group>"; };
+		F948FF3A2CC6163A0058B6E6 /* BlazeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlazeView.swift; sourceTree = "<group>"; };
+		F948FF3E2CC616500058B6E6 /* BlazeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlazeViewModel.swift; sourceTree = "<group>"; };
+		F948FF4E2CC61E970058B6E6 /* AudioViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewModel.swift; sourceTree = "<group>"; };
+		F948FF4F2CC61E970058B6E6 /* AudioModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		F948FF502CC61E980058B6E6 /* AudioTimeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTimeLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F948FF492CC61B420058B6E6 /* BlazeSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +67,8 @@
 		F948FF282CC615F30058B6E6 /* BlazeWSC */ = {
 			isa = PBXGroup;
 			children = (
+				F948FF4C2CC61E860058B6E6 /* New Group */,
+				F948FF372CC616060058B6E6 /* Blaze */,
 				F948FF292CC615F30058B6E6 /* BlazeWSCApp.swift */,
 				F948FF2B2CC615F30058B6E6 /* ContentView.swift */,
 				F948FF2D2CC615F40058B6E6 /* Assets.xcassets */,
@@ -65,6 +83,27 @@
 				F948FF302CC615F40058B6E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F948FF372CC616060058B6E6 /* Blaze */ = {
+			isa = PBXGroup;
+			children = (
+				F948FF3E2CC616500058B6E6 /* BlazeViewModel.swift */,
+				F948FF382CC6163A0058B6E6 /* BlazeTheme.swift */,
+				F948FF3A2CC6163A0058B6E6 /* BlazeView.swift */,
+				F948FF392CC6163A0058B6E6 /* BlazeWidgetItemStyle+BlazeTheme.swift */,
+			);
+			path = Blaze;
+			sourceTree = "<group>";
+		};
+		F948FF4C2CC61E860058B6E6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F948FF4F2CC61E970058B6E6 /* AudioModel.swift */,
+				F948FF502CC61E980058B6E6 /* AudioTimeLine.swift */,
+				F948FF4E2CC61E970058B6E6 /* AudioViewModel.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +122,9 @@
 			dependencies = (
 			);
 			name = BlazeWSC;
+			packageProductDependencies = (
+				F948FF482CC61B420058B6E6 /* BlazeSDK */,
+			);
 			productName = BlazeWSC;
 			productReference = F948FF262CC615F30058B6E6 /* BlazeWSC.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +153,9 @@
 				Base,
 			);
 			mainGroup = F948FF1D2CC615F30058B6E6;
+			packageReferences = (
+				F948FF472CC61B420058B6E6 /* XCRemoteSwiftPackageReference "blaze-specs-ios" */,
+			);
 			productRefGroup = F948FF272CC615F30058B6E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F948FF3B2CC6163A0058B6E6 /* BlazeTheme.swift in Sources */,
 				F948FF2C2CC615F30058B6E6 /* ContentView.swift in Sources */,
+				F948FF3C2CC6163A0058B6E6 /* BlazeWidgetItemStyle+BlazeTheme.swift in Sources */,
+				F948FF3D2CC6163A0058B6E6 /* BlazeView.swift in Sources */,
 				F948FF2A2CC615F30058B6E6 /* BlazeWSCApp.swift in Sources */,
+				F948FF522CC61E980058B6E6 /* AudioViewModel.swift in Sources */,
+				F948FF3F2CC616500058B6E6 /* BlazeViewModel.swift in Sources */,
+				F948FF542CC61E980058B6E6 /* AudioTimeLine.swift in Sources */,
+				F948FF532CC61E980058B6E6 /* AudioModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +396,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F948FF472CC61B420058B6E6 /* XCRemoteSwiftPackageReference "blaze-specs-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WSCSports/blaze-specs-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F948FF482CC61B420058B6E6 /* BlazeSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F948FF472CC61B420058B6E6 /* XCRemoteSwiftPackageReference "blaze-specs-ios" */;
+			productName = BlazeSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F948FF1E2CC615F30058B6E6 /* Project object */;
 }
